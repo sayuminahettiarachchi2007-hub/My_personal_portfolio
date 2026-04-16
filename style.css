@@ -1,0 +1,197 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #111827;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color:#38bdf8;
+}
+.hero p{
+    color: white;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+}
+.about p {
+    max-width: 600px;
+    line-height: 1.6;
+}
+.hero h2{
+	color:#38bdf8;
+} 
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #38bdf8;
+    margin-bottom: 20px;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: #0f172a;
+}
+
+.card {
+    width: 250px;
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.projects-page {
+    padding: 50px;
+    text-align: center;
+    background: #0f172a;
+    color: white;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    width: 250px;
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 12px;
+}
+.projects-title {
+    color: #38bdf8;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 100px;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.back-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.hero {
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.card:hover, .hero button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.profile-img {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0); }
+}
+.projects {
+    display: flex;
+    justify-content: center;   /* center horizontally */
+    align-items: center;       /* center vertically */
+    height: 80vh;              /* take screen height */
+}
+
+.card {
+    margin-top: 40px;          /* space from top */
+}
+.github-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 22px;
+    background: linear-gradient(45deg, #38bdf8, #0ea5e9);
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(56, 189, 248, 0.4);
+    transition: all 0.3s ease;
+}
+.projects-desc {
+    text-align: center;
+    max-width: 700px;
+    margin: 10px auto 30px auto;
+    color: #cbd5e1;
+    line-height: 1.6;
+    font-size: 17px;
+}
+.contact {
+    text-align: center;
+    padding: 60px 20px;
+    background: #111827;
+    color: white;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.contact-details {
+    display: none;
+    margin-top: 20px;
+}
+
+.contact-details a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+.contact {
+    margin-top: 100px;
+    padding: 60px 20px;
+    background: #111827;
+    color: white;
+}
+.contact h2 {
+    color: white;
+}
